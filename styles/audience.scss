@@ -107,7 +107,7 @@
 }
 .user-card {
   display: flex;
-  max-width: 290px;
+  flex: 1;
   margin: 15px;
   padding: 22px 62px 25px 62px;
   flex-direction: column;
@@ -123,16 +123,10 @@
   background-blend-mode: overlay, normal;
   cursor: pointer;
 
-  /*&:nth-child(2) {
+  /* &:nth-child(2) {
     background-color: $color-dark-blue;
   }*/
-  &:hover {
-    background-color: $color-dark-blue;
 
-    figcaption {
-      color: $text-color-white;
-    }
-  }
   @include for-large-up {
     flex-direction: row;
     max-height: 300px;
