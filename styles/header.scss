@@ -2,10 +2,10 @@
   height: 64px;
   width: 100%;
   background-color: #fff;
-  display: flex;
+
   align-items: center;
   padding-left: 15px;
-
+  margin-right: 74px;
   @include for-large-up {
     width: 1140px;
     height: 62px;

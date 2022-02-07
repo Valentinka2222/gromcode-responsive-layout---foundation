@@ -118,7 +118,7 @@
 .headline__learn-more-btn {
   background-color: #fff;
   color: #3040c4;
-  width: 158px;
+  width: 100%;
   height: 48px;
   font-size: 18px;
   font-weight: 700;
@@ -148,6 +148,10 @@
     margin-left: auto;
   }
 }
+.headline__action-btn {
+  width: 100%;
+}
+
 @media screen and (min-width: 1400px) {
   .headline__action-btn {
     width: 100%;
@@ -526,6 +530,7 @@
   background-color: #fff;
   align-items: center;
   padding-left: 15px;
+  margin-right: 74px;
 }
 @media screen and (min-width: 1400px) {
   .header {
