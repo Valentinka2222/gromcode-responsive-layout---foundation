@@ -41,8 +41,9 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
-    margin: 18px 18px 0 18px;
-
+    margin: 0;
+    margin-top: 18px;
+    width: 100%;
     text-align: center;
 
     @include for-large-up {
@@ -145,7 +146,7 @@
   }
 
   &__caption {
-    margin-top: 22px;
+    padding-top: 22px;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
