@@ -93,12 +93,12 @@
       justify-content: space-between;
     }
   }
-  &__card.user-card {
+  &__card {
     margin-top: 40px;
 
-    &:first-child {
-      padding-top: 22px;
-    }
+    /* &:first-child {
+      margin-top: 40px;
+    }*/
 
     @include for-large-up {
       flex: 1;

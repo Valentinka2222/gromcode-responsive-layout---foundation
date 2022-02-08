@@ -802,14 +802,14 @@ html {
     justify-content: space-between;
   }
 }
-.audience__card.user-card {
+.audience__card {
   margin-top: 40px;
-}
-.audience__card.user-card:first-child {
-  padding-top: 22px;
+  /* &:first-child {
+    margin-top: 40px;
+  }*/
 }
 @media screen and (min-width: 1400px) {
-  .audience__card.user-card {
+  .audience__card {
     flex: 1;
     margin-top: 0;
   }
