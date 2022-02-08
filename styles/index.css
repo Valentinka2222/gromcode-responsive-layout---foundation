@@ -7,12 +7,10 @@ html {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   color: #2b292d;
-  overflow-x: hidden;
 }
 
 .page {
   width: 100%;
-  overflow-x: hidden;
 }
 
 @media screen and (min-width: 1400px) {
@@ -57,7 +55,7 @@ html {
   display: block;
   width: 7px;
   height: 12px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png');
 }
 
 .headline__learn-more-btn {
@@ -77,7 +75,8 @@ html {
   width: 100%;
   background-color: #fff;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-right: 74px;
 }
 
@@ -121,7 +120,7 @@ html {
 .header__menu-icon {
   width: 18px;
   display: inline-block;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
   height: 13px;
 }
 
@@ -168,15 +167,13 @@ html {
   display: inline-block;
   height: 5px;
   width: 8px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
   margin-left: 11px;
 }
 
 .logo {
-  display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 .logo__image {
@@ -215,7 +212,6 @@ html {
 }
 
 .top-section {
-  width: 100%;
   background-color: #f3c6bd;
 }
 
@@ -739,7 +735,8 @@ html {
 .review {
   background-color: #fff;
   padding: 30px 20px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-bottom: 2px solid #0185d0;
 }
 
@@ -921,9 +918,11 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #ffffff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-5) 100%),
+    #ffffff;
   background-blend-mode: overlay, normal;
   cursor: pointer;
 }
