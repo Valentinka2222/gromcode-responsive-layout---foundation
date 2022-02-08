@@ -3,7 +3,8 @@
   width: 100%;
   background-color: #fff;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
   margin-right: 74px;
   @include for-large-up {
@@ -89,7 +90,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   &__image {
     width: 48px;
     height: 48px;
@@ -124,7 +124,6 @@
 }
 
 .top-section {
-  width: 100%;
   background-color: #f3c6bd;
   @include for-large-up {
     padding-top: 39px;
