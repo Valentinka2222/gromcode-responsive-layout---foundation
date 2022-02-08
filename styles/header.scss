@@ -16,7 +16,7 @@
 
   &__button {
     display: none;
-
+    border-right: 1px solid #00000026;
     @include for-large-up {
       display: block;
     }
