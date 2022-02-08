@@ -1012,7 +1012,6 @@
 }
 .audience__card.user-card:first-child {
   padding-top: 22px;
-  margin-top: 0px;
 }
 @media screen and (min-width: 1400px) {
   .audience__card.user-card {
