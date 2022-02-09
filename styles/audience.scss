@@ -119,9 +119,9 @@
   background-blend-mode: overlay, normal;
   cursor: pointer;
 
-  /*&:nth-child(1) {
-    padding-top: 22px;
-  }*/
+  &:nth-child(1) {
+    padding-top: 21px;
+  }
 
   @include for-large-up {
     flex-direction: row;
