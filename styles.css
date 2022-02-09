@@ -824,9 +824,9 @@ html {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
   background-blend-mode: overlay, normal;
   cursor: pointer;
-}
-.user-card:nth-child(1) {
-  padding-top: 22px;
+  /*&:nth-child(1) {
+    padding-top: 22px;
+  }*/
 }
 @media screen and (min-width: 1400px) {
   .user-card {
