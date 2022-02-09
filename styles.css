@@ -814,8 +814,8 @@ html {
 .user-card {
   display: flex;
   flex: 1;
-  margin-top: 0;
   margin-bottom: 15px;
+  padding-bottom: 33px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
