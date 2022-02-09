@@ -101,12 +101,11 @@
     }
   }
 }
-
 .user-card {
   display: flex;
   flex: 1;
   margin-bottom: 15px;
-  padding-bottom: 33px;
+  padding: 22px 62px 33px 62px;
   flex-direction: column;
 
   justify-content: center;
@@ -120,9 +119,9 @@
   background-blend-mode: overlay, normal;
   cursor: pointer;
 
-  /* &:nth-child(1) {
+  &:nth-child(1) {
     padding-top: 22px;
-  }*/
+  }
 
   @include for-large-up {
     flex-direction: row;
