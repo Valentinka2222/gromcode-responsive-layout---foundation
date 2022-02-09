@@ -766,7 +766,7 @@ html {
   }
 }
 .audience__action__btn {
-  padding: 0;
+  padding: 0px;
   display: flex;
   margin-bottom: 12px;
   justify-content: center;
