@@ -96,10 +96,6 @@
   &__card {
     margin-top: 40px;
 
-    /* &:first-child {
-      margin-top: 40px;
-    }*/
-
     @include for-large-up {
       flex: 1;
       margin-top: 0;
