@@ -41,9 +41,8 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
-    margin: 0;
-    margin-top: 18px;
-    width: 100%;
+    margin: 18px 15px 0 15px;
+
     text-align: center;
 
     @include for-large-up {
@@ -54,22 +53,25 @@
     margin-top: 30px;
 
     @include for-large-up {
+      margin-right: 15px;
       display: flex;
       align-items: center;
       justify-content: center;
     }
   }
   &__action__btn {
-    padding: 0px;
     display: flex;
-    margin: 0;
-    margin-bottom: 12px;
+
     justify-content: center;
     align-items: center;
     @include for-large-down {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 12px;
       width: 100%;
     }
     &:last-child {
+      margin-bottom: 0px;
       background-color: $color-white;
       color: $text-color-black;
       @include for-large-up {
@@ -82,7 +84,7 @@
   &__card {
     flex: 1;
     margin: 0;
-
+    margin-top: 40px;
     justify-content: center;
     align-items: center;
     @include for-large-up {
@@ -93,20 +95,26 @@
       justify-content: space-between;
     }
   }
-  &__card {
-    margin-top: 40px;
+  /* &__card.user-card {
+   
+
+    &:first-child {
+      padding-top: 22px;
+    }
 
     @include for-large-up {
       flex: 1;
       margin-top: 0;
     }
-  }
+  }*/
 }
 .user-card {
   display: flex;
   flex: 1;
+
   margin-bottom: 15px;
-  padding: 0px 20px 33px 20px;
+
+  padding: 22px 20px 33px 20px;
   flex-direction: column;
 
   justify-content: center;
@@ -119,11 +127,9 @@
 
   background-blend-mode: overlay, normal;
   cursor: pointer;
+
   &:nth-child(1) {
-    padding-top: 8px;
-  }
-  &:last-child {
-    margin-bottom: 0;
+    padding-top: 22px;
   }
 
   @include for-large-up {
@@ -145,7 +151,9 @@
     padding-top: 22px;
     font-weight: 700;
     font-size: 22px;
-    height: 28px;
     text-align: center;
   }
+}
+figure {
+  margin: 0;
 }

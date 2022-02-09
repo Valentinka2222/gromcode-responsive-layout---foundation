@@ -702,6 +702,18 @@ html {
 .audience {
   padding: 50px 15px;
   background-color: #00a1c612;
+  /* &__card.user-card {
+
+
+    &:first-child {
+      padding-top: 22px;
+    }
+
+    @include for-large-up {
+      flex: 1;
+      margin-top: 0;
+    }
+  }*/
 }
 @media screen and (min-width: 1400px) {
   .audience {
@@ -745,9 +757,7 @@ html {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  margin: 0;
-  margin-top: 18px;
-  width: 100%;
+  margin: 18px 15px 0 15px;
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
@@ -760,25 +770,27 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .audience__actions {
+    margin-right: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
 .audience__action__btn {
-  padding: 0px;
   display: flex;
-  margin: 0;
-  margin-bottom: 12px;
   justify-content: center;
   align-items: center;
 }
 @media screen and (max-width: 1399px) {
   .audience__action__btn {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
     width: 100%;
   }
 }
 .audience__action__btn:last-child {
+  margin-bottom: 0px;
   background-color: #fff;
   color: black;
 }
@@ -792,6 +804,7 @@ html {
 .audience__card {
   flex: 1;
   margin: 0;
+  margin-top: 40px;
   justify-content: center;
   align-items: center;
 }
@@ -803,21 +816,12 @@ html {
     justify-content: space-between;
   }
 }
-.audience__card {
-  margin-top: 40px;
-}
-@media screen and (min-width: 1400px) {
-  .audience__card {
-    flex: 1;
-    margin-top: 0;
-  }
-}
 
 .user-card {
   display: flex;
   flex: 1;
   margin-bottom: 15px;
-  padding: 0px 20px 33px 20px;
+  padding: 22px 20px 33px 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -828,10 +832,7 @@ html {
   cursor: pointer;
 }
 .user-card:nth-child(1) {
-  padding-top: 8px;
-}
-.user-card:last-child {
-  margin-bottom: 0;
+  padding-top: 22px;
 }
 @media screen and (min-width: 1400px) {
   .user-card {
@@ -851,8 +852,11 @@ html {
   padding-top: 22px;
   font-weight: 700;
   font-size: 22px;
-  height: 28px;
   text-align: center;
+}
+
+figure {
+  margin: 0;
 }
 
 .hiring {
