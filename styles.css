@@ -768,6 +768,7 @@ html {
 .audience__action__btn {
   padding: 0px;
   display: flex;
+  margin: 0;
   margin-bottom: 12px;
   justify-content: center;
   align-items: center;
