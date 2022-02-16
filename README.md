@@ -1,4 +1,4 @@
-#<span style="font-size:16px color: "#8d118f">Site link</span>
+# Site link
 
 <span align="center" >Layout suppots desktop (up-to-1400)versions!</span>
 
@@ -11,6 +11,6 @@
 <li ><a href="https://en.bem.info/methodology/" target="blank">BEM methodology</a></li>
 </lu>
 
-<lu  style="font-size:20px" >Author</lu>
+<lu  style="font-size:20px" padding-top="10px" ><b>Author</b></lu>
 
 <li>Starkova Valentina</li>
