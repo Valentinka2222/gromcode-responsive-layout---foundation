@@ -115,6 +115,8 @@
   margin-left: 15px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   @include for-large-up {
     height: 50px;
@@ -146,7 +148,6 @@
 
   @include for-large-up {
     margin-left: auto;
-    margin-bottom: 0px;
   }
   &__item {
     margin-left: 20px;

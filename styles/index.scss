@@ -9,11 +9,10 @@ html {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   color: #2b292d;
-  overflow-x: hidden;
 }
 .page {
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 
   @include for-large-up {
     max-width: 1400px;

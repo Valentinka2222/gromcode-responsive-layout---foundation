@@ -4,7 +4,7 @@
 
   @include for-large-up {
     margin: auto;
-    margin-top: 110px;
+
     width: 100%;
     padding: 0;
   }
@@ -95,18 +95,6 @@
       justify-content: space-between;
     }
   }
-  /* &__card.user-card {
-   
-
-    &:first-child {
-      padding-top: 22px;
-    }
-
-    @include for-large-up {
-      flex: 1;
-      margin-top: 0;
-    }
-  }*/
 }
 .user-card {
   display: flex;

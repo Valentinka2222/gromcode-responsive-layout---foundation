@@ -7,12 +7,11 @@ html {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   color: #2b292d;
-  overflow-x: hidden;
 }
 
 .page {
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 @media screen and (min-width: 1400px) {
   .page {
@@ -702,23 +701,10 @@ html {
 .audience {
   padding: 50px 15px;
   background-color: #00a1c612;
-  /* &__card.user-card {
-
-
-    &:first-child {
-      padding-top: 22px;
-    }
-
-    @include for-large-up {
-      flex: 1;
-      margin-top: 0;
-    }
-  }*/
 }
 @media screen and (min-width: 1400px) {
   .audience {
     margin: auto;
-    margin-top: 110px;
     width: 100%;
     padding: 0;
   }
@@ -1216,6 +1202,8 @@ figure {
   margin-left: 15px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (min-width: 1400px) {
   .footer-links {
@@ -1251,7 +1239,6 @@ figure {
 @media screen and (min-width: 1400px) {
   .social-links {
     margin-left: auto;
-    margin-bottom: 0px;
   }
 }
 .social-links__item {
